@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Rotate siren continuously */
+@keyframes rotateSiren {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Flash siren between red and white */
+@keyframes flashSiren {
+  0%, 100% {
+    color: #f44336; /* Red */
+  }
+  50% {
+    color: #ffffff; /* White */
+  }
+}
