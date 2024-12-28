@@ -12,8 +12,8 @@ import {
   Alert,
   Link,
 } from '@mui/material';
-import { Visibility, VisibilityOff } from '@mui/icons-material'; // Import icons for password visibility
-import { AiFillAlert } from 'react-icons/ai'; // Importing AiFillAlert for siren-like icon
+import { Visibility, VisibilityOff } from '@mui/icons-material'; 
+import { AiFillAlert } from 'react-icons/ai'; 
 import { useNavigate } from 'react-router-dom';
 
 const LoginPage: React.FC = () => {
@@ -172,9 +172,9 @@ const LoginPage: React.FC = () => {
         anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
         sx={{
           '& .MuiSnackbarContent-root': {
-            fontSize: '1.2rem', // Increase font size
-            padding: '16px 32px', // Increase padding
-            borderRadius: '8px', // Rounded corners
+            fontSize: '1.2rem', 
+            padding: '16px 32px', 
+            borderRadius: '8px', 
           },
         }}
       >
